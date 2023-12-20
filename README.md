@@ -33,7 +33,7 @@ roslaunch king world.launch
 ```
 
 <p align="center">
-<img src="./media/WorldPicture.png" alt="World Picture"/>
+<img src="/media/WorldPicture.png" alt="World Picture"/>
 </p>
 
 - Hint: If you want to modify the `world.launch` file to add your own world, make sure to make `<sim_time>0</sim_time>` in the `<YourWorld>.world` file to avoid the following error:
@@ -49,4 +49,4 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/king/cmd_vel
 
 ## Autonomous Navigation
 
-Refer to Autonomous Navigation here: [Navigation](./Navigation/Navigation.md)
+Refer to Autonomous Navigation here: [Navigation](/Navigation/Navigation.md)
