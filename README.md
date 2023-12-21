@@ -20,8 +20,8 @@ Replace `<version>` with noetic, melodic etc.
 
 ## Set up workspace
 ```bash
-git clone https://github.com/mhmd2520/King-Robot
-cd catkin_ws
+git clone https://github.com/mhmd2520/king_robot_ws
+cd king_robot_ws
 catkin_make
 source devel/setup.sh
 ```
