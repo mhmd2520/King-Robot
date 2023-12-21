@@ -1,0 +1,11 @@
+<!-- 
+    Safety controller
+-->
+<launch>
+  <node pkg="nodelet" type="nodelet" name="king" args="load king/SafetyControllerNodelet mobile_base_nodelet_manager">
+    <remap from="king/cmd_vel" to="cmd_vel_mux/input/safety_controller"/>
+    <remap from="king/events/bumper" to="mobile_base/events/bumper"/>
+    <remap from="king/events/cliff" to="mobile_base/events/cliff"/>
+    <remap from="king/events/wheel_drop" to="mobile_base/events/wheel_drop"/>
+  </node>
+</launch>

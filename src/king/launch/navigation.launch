@@ -1,0 +1,24 @@
+<launch>
+
+	<arg name="custom_amcl_launch_file" default="$(find navigation_stack)/launch/amcl.launch"/>
+
+
+	<include file="$(find king)/launch/world.launch"/>
+
+	<include file="$(arg custom_amcl_launch_file)">
+		<arg name="base_link_name" value="chassis"/>
+		<arg name="map_file" value="$(find king)/../maps/class/map.yaml"/>
+	</include>
+
+	<include file="$(find navigation_stack)/launch/includes/move_base.launch.xml">
+		<arg name="base_frame_id" value="chassis"/>
+		<arg name="odom_topic" value="king/odom" />
+		<arg name="odom_frame_id" value="odom"/>
+		<arg name="cmd_vel_topic" value="king/cmd_vel" />
+		<arg name="custom_param_file" value="$(find navigation_stack)/param/r200_costmap_params.yaml"/>
+	</include>
+
+	<node name="rviz" pkg="rviz" type="rviz" respawn="false"
+			args="-d $(find navigation_stack)/rviz/navigation.rviz"/>
+
+</launch>
