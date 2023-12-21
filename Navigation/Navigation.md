@@ -1,7 +1,7 @@
-# GMapping
+# Mapping
 
 
-## Mapping
+## GMapping
 
 Terminal 1:
 
@@ -29,7 +29,8 @@ rosrun map_server map_saver -f map
 
 ![Scan](/media/MapScan.png)
 
-# AMCL
+# Localization
+## AMCL
 
 Terminal 1:
 
