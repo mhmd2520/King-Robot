@@ -1,12 +1,17 @@
 # ROS workspace
 
 ## Contents
-
+- [SLAM in ROS Introduction](/SLAM-IN-ROS/SLAM-IN-ROS.pdf)
+- [Prerequisites](#prerequisites)
 - [Prerequisites](#prerequisites)
 - [Set Up](#set-up-workspace)
 - [king Robot](#king-robot)
 - [Control The Robot](#control-the-robot)
-- [Autonomous Navigation](./Navigation/Navigation.md)
+- [Autonomous Navigation](/Navigation/Navigation.md)
+
+## SLAM in ROS Introduction
+
+Refer to the PDF file here: [Introduction](/SLAM-IN-ROS/SLAM-IN-ROS.pdf)
 
 ## Prerequisites
 
