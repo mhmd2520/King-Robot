@@ -1,7 +1,7 @@
 # ROS workspace
 
 ## Contents
-- [SLAM in ROS Introduction](/SLAM-IN-ROS/SLAM-IN-ROS.pdf)
+- [Introduction](/Introduction/SLAM_in_ROS_Introduction.pdf)
 - [Prerequisites](#prerequisites)
 - [Prerequisites](#prerequisites)
 - [Set Up](#set-up-workspace)
@@ -11,7 +11,7 @@
 
 ## SLAM in ROS Introduction
 
-Refer to the PDF file here: [Introduction](/SLAM-IN-ROS/SLAM-IN-ROS.pdf)
+Refer to the PDF file here: [Introduction](/Introduction/SLAM_in_ROS_Introduction.pdf)
 
 ## Prerequisites
 
