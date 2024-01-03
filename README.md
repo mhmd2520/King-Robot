@@ -4,7 +4,7 @@
 - [Introduction](/Introduction/SLAM_In_ROS_Introduction.pdf)
 - [Prerequisites](#prerequisites)
 - [Prerequisites](#prerequisites)
-- [Set Up](#set-up-workspace)
+- [Set Up Workspace](#set-up-workspace)
 - [king Robot](#king-robot)
 - [Control The Robot](#control-the-robot)
 - [Autonomous Navigation](/Navigation/Navigation.md)
@@ -23,7 +23,7 @@ Replace `<version>` with noetic, melodic etc.
 - DWA Planner (`$ sudo apt install ros-<version>-dwa-local-planner`)
 - GMAPPING (`$ sudo apt install ros-<version>-gmapping`)
 
-## Set up workspace
+## Set Up Workspace
 ```bash
 git clone https://github.com/mhmd2520/king_robot_ws
 cd king_robot_ws
