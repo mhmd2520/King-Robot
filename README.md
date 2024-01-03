@@ -3,7 +3,6 @@
 ## Contents
 - [Introduction](/Introduction/SLAM_In_ROS_Introduction.pdf)
 - [Prerequisites](#prerequisites)
-- [Prerequisites](#prerequisites)
 - [Set Up Workspace](#set-up-workspace)
 - [king Robot](#king-robot)
 - [Control The Robot](#control-the-robot)
