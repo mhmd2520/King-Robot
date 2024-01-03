@@ -10,7 +10,7 @@
 
 ## SLAM in ROS Introduction
 
-Refer to the PDF file here: [Introduction](/Introduction/SLAM_in_ROS_Introduction.pdf)
+Refer to the PDF file here: [Introduction](/Introduction/SLAM_In_ROS_Introduction.pdf)
 
 ## Prerequisites
 
